@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Controle de videogame com uma seta circular (backup) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- reduzido para caber na área segura do ícone adaptativo (66dp centrais) -->
+    <group android:pivotX="54" android:pivotY="54" android:scaleX="0.7" android:scaleY="0.7" android:translateY="2.5">
+        <!-- corpo do controle -->
+        <path
+            android:fillColor="#8B6CFF"
+            android:pathData="M36,40h36c8.8,0 14,6.5 15.5,16l2,13c1,6.5 -3,10 -7.5,10c-3.5,0 -5.8,-2 -7.8,-5l-3.2,-5H37l-3.2,5c-2,3 -4.3,5 -7.8,5c-4.5,0 -8.5,-3.5 -7.5,-10l2,-13C22,46.5 27.2,40 36,40z" />
+        <!-- direcional -->
+        <path
+            android:fillColor="#0F1117"
+            android:pathData="M33,50h4v5h5v4h-5v5h-4v-5h-5v-4h5z" />
+        <!-- botões -->
+        <path
+            android:fillColor="#22D3EE"
+            android:pathData="M72,52m-3.2,0a3.2,3.2 0,1 1,6.4 0a3.2,3.2 0,1 1,-6.4 0" />
+        <path
+            android:fillColor="#22D3EE"
+            android:pathData="M65,59m-3.2,0a3.2,3.2 0,1 1,6.4 0a3.2,3.2 0,1 1,-6.4 0" />
+        <!-- seta de backup -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M54,22a12,12 0,0 0,-11.3 8h4.4a8,8 0,0 1,13.6 -1.6L57,32h10v-10l-3.6,3.6A12,12 0,0 0,54 22z" />
+    </group>
+</vector>
